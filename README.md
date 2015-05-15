@@ -4,14 +4,14 @@ Searching and storing tweets from twitter without using the official APIs. This 
 All these codes are free to use and modify. 
 
 Server side requirements:
-	python is required
-	python bottle is required
-	python pymongo 3.0+ is required
-	mongodb 3.0+ is required
+- python is required
+- python bottle is required
+- python pymongo 3.0+ is required
+- mongodb 3.0+ is required
 
 
 Client side requirements:
-	JRE is required
+- JRE is required
 
 
 Java Build Path Libraries
@@ -33,22 +33,6 @@ where you can hardcode the default ip or set it manually by command -ip
 
 Once you started, you can check the status on http://localhost:8080/
 
-
-File Structure
-- clientscala
-- 	lib // contains jsoup-1.8.2.jar 
-- 	EVERYTHING ELSE //standard scala sbt project folder
-- serverpython
-- 	views
-- 		index.tpl   //index template for server
-- 	static
-- 		client.jar  
-- 	database.py
-- 	server.py
-- README.md
-
-
 Http.scala and OAuth.scala are from https://github.com/scalaj/scalaj-http
-
 
 Creating jar in scala, see https://github.com/sbt/sbt-assembly
