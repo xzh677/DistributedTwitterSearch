@@ -35,17 +35,17 @@ Once you started, you can check the status on http://localhost:8080/
 
 
 File Structure
-	- clientscala	
-		- lib // contains jsoup-1.8.2.jar 
-		- EVERYTHING ELSE //standard scala sbt project folder
-	- serverpython
-		- views
-			- index.tpl   //index template for server
-		- static
-			- client.jar  
-		- database.py
-		- server.py
-	- README.md
+- clientscala
+-- lib // contains jsoup-1.8.2.jar 
+-- EVERYTHING ELSE //standard scala sbt project folder
+- serverpython
+-- views
+--- index.tpl   //index template for server
+-- static
+--- client.jar  
+-- database.py
+-- server.py
+- README.md
 
 
 Http.scala and OAuth.scala are from https://github.com/scalaj/scalaj-http
