@@ -36,15 +36,15 @@ Once you started, you can check the status on http://localhost:8080/
 
 File Structure
 - clientscala
--- lib // contains jsoup-1.8.2.jar 
--- EVERYTHING ELSE //standard scala sbt project folder
+- 	lib // contains jsoup-1.8.2.jar 
+- 	EVERYTHING ELSE //standard scala sbt project folder
 - serverpython
--- views
---- index.tpl   //index template for server
--- static
---- client.jar  
--- database.py
--- server.py
+- 	views
+- 		index.tpl   //index template for server
+- 	static
+- 		client.jar  
+- 	database.py
+- 	server.py
 - README.md
 
 
