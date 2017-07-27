@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="twittersearch_2.7.1"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170723190300"/>
+	<dependencies>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.7.2" status="release" pubdate="20130128113049" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jsoup.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The MIT License" url="http://jsoup.com/license"/>
+				<metadata-artifact status="no" details="" size="3006" time="0" location="/home/xin/.ivy2/cache/org.jsoup/jsoup/ivy-1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.pom"/>
+				<caller organisation="default" name="twittersearch_2.7.1" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="293671" time="0" location="/home/xin/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.7.1" status="release" pubdate="20081125103305" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="successful" details="" size="491" time="690" location="/home/xin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.7.1.xml" searched="true" original-local-location="/home/xin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.7.1/scala-library-2.7.1.pom"/>
+				<caller organisation="default" name="twittersearch_2.7.1" conf="test, compile, provided, test-internal, runtime, optional" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="3361569" time="3035" location="/home/xin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.7.1/scala-library-2.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.7.1">
+			<revision name="3.0.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="default" name="twittersearch_2.7.1" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

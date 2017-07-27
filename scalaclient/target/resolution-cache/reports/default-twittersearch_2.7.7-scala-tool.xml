@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="twittersearch_2.7.7"
+		revision="1.0"
+		conf="scala-tool"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170723190606"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.7.7" status="release" pubdate="20091029042106" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, optional, optional(default), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2623" time="0" location="/home/xin/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.7.7/scala-compiler-2.7.7.pom"/>
+				<caller organisation="default" name="twittersearch_2.7.7" conf="scala-tool" rev="2.7.7" rev-constraint-default="2.7.7" rev-constraint-dynamic="2.7.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="6359523" time="0" location="/home/xin/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.7.7/scala-compiler-2.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.7.7" status="release" pubdate="20091029041824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master" position="1">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2448" time="0" location="/home/xin/.ivy2/cache/org.scala-lang/scala-library/ivy-2.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.7.7/scala-library-2.7.7.pom"/>
+				<caller organisation="default" name="twittersearch_2.7.7" conf="scala-tool" rev="2.7.7" rev-constraint-default="2.7.7" rev-constraint-dynamic="2.7.7" callerrev="1.0"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="default, compile, runtime, master" rev="2.7.7" rev-constraint-default="2.7.7" rev-constraint-dynamic="2.7.7" callerrev="2.7.7"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="3789991" time="0" location="/home/xin/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.7.7/scala-library-2.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
